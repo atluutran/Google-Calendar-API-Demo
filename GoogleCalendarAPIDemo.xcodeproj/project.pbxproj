@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		407B5DE92D601ABB00684940 /* GoogleInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 407B5DE82D601ABB00684940 /* GoogleInfo.plist */; };
+		407B5DED2D60421400684940 /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = 407B5DEC2D60421400684940 /* GoogleAPIClientForRESTCore */; };
 		6589F647292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F646292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift */; };
 		6589F649292A538100D686D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F648292A538100D686D7 /* ContentView.swift */; };
 		6589F64B292A538400D686D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6589F64A292A538400D686D7 /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407B5DED2D60421400684940 /* GoogleAPIClientForRESTCore in Frameworks */,
 				6589F66C292A666C00D686D7 /* GoogleSignInSwift in Frameworks */,
 				6589F656292A551000D686D7 /* GoogleAPIClientForREST_Calendar in Frameworks */,
 				6589F66A292A666C00D686D7 /* GoogleSignIn in Frameworks */,
@@ -211,6 +213,7 @@
 				6589F658292A553100D686D7 /* Lottie */,
 				6589F669292A666C00D686D7 /* GoogleSignIn */,
 				6589F66B292A666C00D686D7 /* GoogleSignInSwift */,
+				407B5DEC2D60421400684940 /* GoogleAPIClientForRESTCore */,
 			);
 			productName = GoogleCalendarAPIDemo;
 			productReference = 6589F643292A538100D686D7 /* GoogleCalendarAPIDemo.app */;
@@ -529,6 +532,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		407B5DEC2D60421400684940 /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GoogleAPIClientForRESTCore;
+		};
 		6589F655292A551000D686D7 /* GoogleAPIClientForREST_Calendar */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6589F654292A551000D686D7 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
