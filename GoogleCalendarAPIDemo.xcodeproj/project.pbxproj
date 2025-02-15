@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		407B5DE92D601ABB00684940 /* GoogleInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 407B5DE82D601ABB00684940 /* GoogleInfo.plist */; };
 		6589F647292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F646292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift */; };
 		6589F649292A538100D686D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F648292A538100D686D7 /* ContentView.swift */; };
 		6589F64B292A538400D686D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6589F64A292A538400D686D7 /* Assets.xcassets */; };
 		6589F64E292A538400D686D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6589F64D292A538400D686D7 /* Preview Assets.xcassets */; };
 		6589F656292A551000D686D7 /* GoogleAPIClientForREST_Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F655292A551000D686D7 /* GoogleAPIClientForREST_Calendar */; };
 		6589F659292A553100D686D7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F658292A553100D686D7 /* Lottie */; };
-		6589F662292A5AF500D686D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6589F661292A5AF500D686D7 /* GoogleService-Info.plist */; };
 		6589F666292A617300D686D7 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F665292A617300D686D7 /* AuthenticationViewModel.swift */; };
 		6589F66A292A666C00D686D7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F669292A666C00D686D7 /* GoogleSignIn */; };
 		6589F66C292A666C00D686D7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6589F66B292A666C00D686D7 /* GoogleSignInSwift */; };
@@ -33,17 +33,16 @@
 		6589F690292AAF7400D686D7 /* CalendarEventListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F68F292AAF7400D686D7 /* CalendarEventListItems.swift */; };
 		6589F692292B66F900D686D7 /* CustomTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589F691292B66F900D686D7 /* CustomTimePicker.swift */; };
 		6589F697292B999200D686D7 /* noData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6589F696292B999100D686D7 /* noData.json */; };
-		6589F69F292BE67800D686D7 /* GoogleInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6589F69E292BE67800D686D7 /* GoogleInfo.plist */; };
+		6589F69F292BE67800D686D7 /* (null) in Resources */ = {isa = PBXBuildFile; fileRef = 6589F69E292BE67800D686D7; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		407B5DE82D601ABB00684940 /* GoogleInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoogleInfo.plist; sourceTree = "<group>"; };
 		6589F643292A538100D686D7 /* GoogleCalendarAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCalendarAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6589F646292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarAPIDemoApp.swift; sourceTree = "<group>"; };
 		6589F648292A538100D686D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6589F64A292A538400D686D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6589F64D292A538400D686D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6589F660292A5ADE00D686D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		6589F661292A5AF500D686D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6589F663292A5B2600D686D7 /* GoogleCalendarAPIDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleCalendarAPIDemo.entitlements; sourceTree = "<group>"; };
 		6589F665292A617300D686D7 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		6589F66F292A6AB900D686D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -62,7 +61,7 @@
 		6589F68F292AAF7400D686D7 /* CalendarEventListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventListItems.swift; sourceTree = "<group>"; };
 		6589F691292B66F900D686D7 /* CustomTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimePicker.swift; sourceTree = "<group>"; };
 		6589F696292B999100D686D7 /* noData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noData.json; sourceTree = "<group>"; };
-		6589F69E292BE67800D686D7 /* GoogleInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoogleInfo.plist; sourceTree = "<group>"; };
+		6589F69E292BE67800D686D7 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +98,11 @@
 		6589F645292A538100D686D7 /* GoogleCalendarAPIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				407B5DE82D601ABB00684940 /* GoogleInfo.plist */,
 				6589F683292A72A600D686D7 /* Assets */,
 				6589F66E292A6AAD00D686D7 /* Utilities */,
 				6589F664292A616100D686D7 /* ViewModel */,
 				6589F663292A5B2600D686D7 /* GoogleCalendarAPIDemo.entitlements */,
-				6589F660292A5ADE00D686D7 /* Info.plist */,
-				6589F661292A5AF500D686D7 /* GoogleService-Info.plist */,
 				6589F646292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift */,
 				6589F648292A538100D686D7 /* ContentView.swift */,
 				6589F671292A6D6C00D686D7 /* LoginView.swift */,
@@ -145,7 +143,7 @@
 		6589F683292A72A600D686D7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				6589F69E292BE67800D686D7 /* GoogleInfo.plist */,
+				6589F69E292BE67800D686D7,
 				6589F685292A72A600D686D7 /* loader.json */,
 				6589F686292A72A600D686D7 /* calendar.json */,
 				6589F687292A72A600D686D7 /* calendar_home.json */,
@@ -264,11 +262,11 @@
 				6589F697292B999200D686D7 /* noData.json in Resources */,
 				6589F64E292A538400D686D7 /* Preview Assets.xcassets in Resources */,
 				6589F68A292A72A600D686D7 /* calendar.json in Resources */,
+				407B5DE92D601ABB00684940 /* GoogleInfo.plist in Resources */,
 				6589F68B292A72A600D686D7 /* calendar_home.json in Resources */,
 				6589F64B292A538400D686D7 /* Assets.xcassets in Resources */,
-				6589F662292A5AF500D686D7 /* GoogleService-Info.plist in Resources */,
 				6589F689292A72A600D686D7 /* loader.json in Resources */,
-				6589F69F292BE67800D686D7 /* GoogleInfo.plist in Resources */,
+				6589F69F292BE67800D686D7 /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
