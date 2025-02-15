@@ -9,6 +9,8 @@ import SwiftUI
 import GoogleAPIClientForREST_Calendar
 
 struct CalendarEventListItems: View {
+    let SRC = "CalendarEventListItems"
+    
     private let calendar = Calendar.current
     var events: [GTLRCalendar_Event]
     var month: Int
@@ -23,6 +25,8 @@ struct CalendarEventListItems: View {
                         .position(x: proxy.size.width / 2, y: proxy.size.height / 2)
                 }
             }
+            
+            #if FIXME_TEST
             List {
                 ForEach(1 ... getRange(year: year, month: month) , id: \.self) { day in
                     if let filteredData = filteredEvents(day), filteredData.count > 0 {
@@ -35,6 +39,9 @@ struct CalendarEventListItems: View {
                 }
             }
             .listStyle(PlainListStyle())
+            #else
+            Text(SRC)
+            #endif
         }
     }
 
