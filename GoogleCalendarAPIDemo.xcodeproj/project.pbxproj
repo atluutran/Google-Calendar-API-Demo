@@ -38,7 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		407B5DE82D601ABB00684940 /* GoogleInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoogleInfo.plist; sourceTree = "<group>"; };
+		407B5DE82D601ABB00684940 /* GoogleInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; sourceTree = "<group>"; };
 		6589F643292A538100D686D7 /* GoogleCalendarAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCalendarAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6589F646292A538100D686D7 /* GoogleCalendarAPIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarAPIDemoApp.swift; sourceTree = "<group>"; };
 		6589F648292A538100D686D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
